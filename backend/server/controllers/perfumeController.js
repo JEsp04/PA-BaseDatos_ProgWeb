@@ -1,6 +1,5 @@
 import Perfume from "../models/Perfume.js";
 
-//  Crear un perfume
 export const crearPerfume = async (req, res) => {
   try {
     const perfume = await Perfume.create(req.body);
@@ -10,7 +9,6 @@ export const crearPerfume = async (req, res) => {
   }
 };
 
-//  Obtener todos los perfumes
 export const obtenerPerfumes = async (req, res) => {
   try {
     const perfumes = await Perfume.findAll();
@@ -20,7 +18,6 @@ export const obtenerPerfumes = async (req, res) => {
   }
 };
 
-//  Obtener un perfume por ID
 export const obtenerPerfumePorId = async (req, res) => {
   try {
     const perfume = await Perfume.findByPk(req.params.id);
@@ -30,7 +27,6 @@ export const obtenerPerfumePorId = async (req, res) => {
   }
 };
 
-//  Actualizar perfume
 export const actualizarPerfume = async (req, res) => {
   try {
     const perfume = await Perfume.findByPk(req.params.id);
@@ -43,7 +39,6 @@ export const actualizarPerfume = async (req, res) => {
   }
 };
 
-//  Eliminar perfume
 export const eliminarPerfume = async (req, res) => {
   try {
     const perfume = await Perfume.findByPk(req.params.id);
