@@ -25,7 +25,10 @@ const Perfume = sequelize.define("Perfume", {
   stock: {
     type: DataTypes.INTEGER,
     defaultValue: 0,
-  },
-});
+  }
+  },{
+    tableName: 'perfumes',
+  }
+);
 
 export default Perfume;

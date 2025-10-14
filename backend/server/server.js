@@ -8,11 +8,11 @@ const PORT = process.env.PORT || 4000;
 async function startServer() {
   try {
     await sequelize.authenticate();
-    console.log("✅ Conectado a la base de datos.");
+    console.log("Conectado a la base de datos.");
 
     // Sincroniza los modelos (crea tablas si no existen)
     await sequelize.sync({ alter: true });
-    console.log("🧩 Modelos sincronizados con la base de datos.");
+    console.log("Modelos sincronizados con la base de datos.");
 
     app.listen(PORT, () =>
       console.log(`Servidor ejecutándose en http://localhost:${PORT}`)
