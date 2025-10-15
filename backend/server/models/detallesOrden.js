@@ -1,24 +1,30 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
-
-const Carrito = sequelize.define("Carrito", {
+const OrdenDetalles = sequelize.define("OrdenDetalles", {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
   },
-  usuarioId: {
+  ordenId : {
     type: DataTypes.INTEGER,
     allowNull: false,
-    unique: "uk_carrito_usuarioId",
   },
-  total: {
+  productoId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  cantidad: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  precioUnitario: {
     type: DataTypes.DECIMAL(10, 2),
     allowNull: false,
   },
-},{ tableName: 'carritos',
+}, { tableName: 'orden_detalles',
   timestamps: true,
 });
 
-export default Carrito;
+export default OrdenDetalles;

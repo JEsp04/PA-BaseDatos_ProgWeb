@@ -1,0 +1,35 @@
+import { DataTypes } from "sequelize";
+import sequelize from "../config/database.js";
+
+const Pago = sequelize.define("Pago", {
+  id: {
+    type: DataTypes.INTEGER,
+    autoIncrement: true,
+    primaryKey: true,
+  },
+  ordenId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  metodoPago: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  monto: {
+    type: DataTypes.DECIMAL(10, 2),
+    allowNull: false,
+  },
+  fechaPago: {
+    type: DataTypes.DATE,
+    allowNull: false,
+  },
+  estado: {
+    type: DataTypes.ENUM('pendiente', 'completado', 'fallido'),
+    allowNull: false,
+  },
+
+}, { tableName: 'pagos',
+  timestamps: true,
+});
+
+export default Pago;

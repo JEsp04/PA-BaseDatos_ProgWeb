@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
-const Perfume = sequelize.define("Perfume", {
+const Producto = sequelize.define("Producto", {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -25,10 +25,19 @@ const Perfume = sequelize.define("Perfume", {
   stock: {
     type: DataTypes.INTEGER,
     defaultValue: 0,
-  }
+  },
+  tamaño: {
+    type: DataTypes.STRING(50),
+  },
+  genero: {
+    type: DataTypes.ENUM("Masculino", "Femenino", "Unisex"),
+  },
+  imagenUrl: {
+    type: DataTypes.STRING,
+  },
   },{
-    tableName: 'perfumes',
+    tableName: 'productos',
   }
 );
 
-export default Perfume;
+export default Producto;

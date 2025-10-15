@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
-import Carrito from "./Carrito.js";
-import Perfume from "./Perfume.js";
+import Carrito from "./carrito.js";
+import Producto from "./producto.js";
 
 const CarritoDetalle = sequelize.define(
   "CarritoDetalle",
@@ -20,11 +20,11 @@ const CarritoDetalle = sequelize.define(
       },
       onDelete: "CASCADE",
     },
-    perfumeId: {
+    productoId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: Perfume,
+        model: Producto,
         key: "id",
       },
       onDelete: "CASCADE",
@@ -48,7 +48,7 @@ const CarritoDetalle = sequelize.define(
   },
   {
     tableName: "carrito_detalles",
-    timestamps: true,
+    timestamps: false,
   }
 );
 
