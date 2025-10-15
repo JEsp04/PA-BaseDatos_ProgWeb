@@ -1,6 +1,6 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
-import Carrito from "./Carrito.js";
+import Carrito from "./carrito.js";
 import Producto from "./producto.js";
 
 const CarritoDetalle = sequelize.define(
@@ -48,7 +48,7 @@ const CarritoDetalle = sequelize.define(
   },
   {
     tableName: "carrito_detalles",
-    timestamps: true,
+    timestamps: false,
   }
 );
 
