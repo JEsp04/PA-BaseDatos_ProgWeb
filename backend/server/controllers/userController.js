@@ -20,7 +20,18 @@ export const obtenerUsuarioPorId = async (req, res) => {
   }
 };
 
-
+export const ObtenerDetallesUsuario = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const usuario = await Usuario.findByPk(id, {
+      include: [{all: true, nested: true}],
+    });
+    if (!usuario) return res.status(404).json({ message: "No encontrado" });
+    res.json(usuario);
+  } catch (error) {
+    res.status(500).json({ message: "Error al buscar usuario", error });
+  }
+};
 export const actualizarUsuario = async (req, res) => {
   try {
     const { id } = req.params;

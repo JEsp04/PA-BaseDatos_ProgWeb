@@ -16,7 +16,7 @@ const Orden = sequelize.define("Orden", {
     allowNull: false,
   },
   estado: {
-    type: DataTypes.ENUM('pendiente', 'procesando', 'completada', 'cancelada')
+    type: DataTypes.ENUM('pendiente', 'completada', 'cancelada')
 },
 },{ tableName: 'ordenes',
   timestamps: true,

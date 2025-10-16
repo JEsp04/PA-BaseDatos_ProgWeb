@@ -11,6 +11,10 @@ const Pago = sequelize.define("Pago", {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
+  usuarioId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
   metodoPago: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -24,7 +28,7 @@ const Pago = sequelize.define("Pago", {
     allowNull: false,
   },
   estado: {
-    type: DataTypes.ENUM('pendiente', 'completado', 'fallido'),
+    type: DataTypes.ENUM('pendiente', 'completado', 'cancelado'),
     allowNull: false,
   },
 
