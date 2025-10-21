@@ -4,7 +4,7 @@ import sequelize from "../config/database.js";
 const OrdenDetalles = sequelize.define(
   "OrdenDetalles",
   {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    ordenDetalleId: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     ordenId: { type: DataTypes.INTEGER, allowNull: false },
     productoId: { type: DataTypes.INTEGER, allowNull: false },
     cantidad: { type: DataTypes.INTEGER, allowNull: false },

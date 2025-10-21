@@ -6,7 +6,7 @@ import Producto from "./producto.js";
 const CarritoDetalle = sequelize.define(
   "CarritoDetalle",
   {
-    id: {
+    CarritoDetalleId: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
@@ -16,7 +16,7 @@ const CarritoDetalle = sequelize.define(
       allowNull: false,
       references: {
         model: Carrito,
-        key: "id",
+        key: "carritoId",
       },
       onDelete: "CASCADE",
     },
@@ -25,7 +25,7 @@ const CarritoDetalle = sequelize.define(
       allowNull: false,
       references: {
         model: Producto,
-        key: "id",
+        key: "productoId",
       },
       onDelete: "CASCADE",
     },

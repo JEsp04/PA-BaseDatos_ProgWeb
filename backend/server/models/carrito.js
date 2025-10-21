@@ -3,7 +3,7 @@ import sequelize from "../config/database.js";
 
 
 const Carrito = sequelize.define("Carrito", {
-  id: {
+  carritoId: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,

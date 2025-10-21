@@ -12,7 +12,7 @@ async function startServer() {
     await sequelize.authenticate();
     console.log("Conectado a la base de datos.");
 
-    await sequelize.sync();
+    await sequelize.sync({ alter: true });
     console.log("Modelos sincronizados con la base de datos.");
 
     app.listen(PORT, () =>

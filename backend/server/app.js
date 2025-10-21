@@ -7,6 +7,7 @@ import carritoDetalleRoutes from "./routes/carritoDetalleRoutes.js";
 import ordenRoutes from "./routes/ordenRoutes.js";
 import detallesOrdenRoute from "./routes/detallesOrdenRoute.js";
 import pagoRoute from "./routes/pagoRoutes.js";
+
 const app = express();
 
 app.use(express.json());
@@ -26,4 +27,5 @@ app.use("/api/ordenes", ordenRoutes);
 app.use("/api/ordenes/detalles", detallesOrdenRoute);
 
 app.use("/api/pagos", pagoRoute);
+
 export default app;
