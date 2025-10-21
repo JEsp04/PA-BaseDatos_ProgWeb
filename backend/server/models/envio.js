@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
 const Envio = sequelize.define("Envio", {
-  id: {
+  envioId: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
@@ -24,8 +24,11 @@ const Envio = sequelize.define("Envio", {
     allowNull: false,
   },
     codigoPostal: {
-    type: DataTypes.STRING,
+    type: DataTypes.STRING(6),
     allowNull: false,
+    validate: {
+      len: /^[0-9]{6]$/,
+    },
   },
   estadoEnvio: {
     type: DataTypes.ENUM('pendiente', 'enviado', 'entregado', 'cancelado'),

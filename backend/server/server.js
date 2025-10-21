@@ -1,9 +1,10 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import app from "./app.js";
 import sequelize from "./config/database.js";
-import dotenv from "dotenv";
 import "./models/index.js";
 
-dotenv.config();
 const PORT = process.env.PORT || 4000;
 
 async function startServer() {

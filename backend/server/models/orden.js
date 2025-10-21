@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
 const Orden = sequelize.define("Orden", {
-  id: {
+  ordenId: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
@@ -16,7 +16,7 @@ const Orden = sequelize.define("Orden", {
     allowNull: false,
   },
   estado: {
-    type: DataTypes.ENUM('pendiente', 'procesando', 'completada', 'cancelada')
+    type: DataTypes.ENUM('pendiente', 'completada', 'cancelada')
 },
 },{ tableName: 'ordenes',
   timestamps: true,

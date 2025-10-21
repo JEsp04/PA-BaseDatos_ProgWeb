@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import Usuario from "../models/user.js";
 
 
-export const register = async (req,res)=>{
+export const registro = async (req,res)=>{
     try{
          const {nombre,email,password, rol} = req.body;
 

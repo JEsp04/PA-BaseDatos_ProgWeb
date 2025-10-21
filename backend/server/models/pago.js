@@ -2,12 +2,16 @@ import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
 const Pago = sequelize.define("Pago", {
-  id: {
+  pagoId: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
   },
   ordenId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
+  usuarioId: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
@@ -24,7 +28,7 @@ const Pago = sequelize.define("Pago", {
     allowNull: false,
   },
   estado: {
-    type: DataTypes.ENUM('pendiente', 'completado', 'fallido'),
+    type: DataTypes.ENUM('pendiente', 'completado', 'cancelado'),
     allowNull: false,
   },
 

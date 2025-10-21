@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import sequelize from "../config/database.js";
 
 const Usuario = sequelize.define("Usuario", {
-  id: {
+  usuarioId: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
     primaryKey: true,
@@ -15,7 +15,7 @@ const Usuario = sequelize.define("Usuario", {
     email: {
     type: DataTypes.STRING(100),
     allowNull: false,
-    unique: true,
+    unique:{ name: 'uk_usuario_email', msg: 'El email ya está en uso' },
     validate: {
       isEmail: true,
     },
