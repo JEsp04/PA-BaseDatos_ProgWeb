@@ -1,0 +1,392 @@
+[
+  {
+    "nombre": "One Million",
+    "marca": "Paco Rabanne",
+    "precio": 420000,
+    "descripcion": "Fragancia amaderada y especiada con notas de cuero y canela, intensa y duradera.",
+    "stock": 15,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71K2gH9sFSL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Invictus",
+    "marca": "Paco Rabanne",
+    "precio": 450000,
+    "descripcion": "Aroma fresco con notas marinas y amaderadas, simboliza la energía y victoria.",
+    "stock": 12,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0270/2822/0762/products/Invictus-Paco-Rabanne-EDT-100ml-Disfragancias.jpg"
+  },
+  {
+    "nombre": "Bleu de Chanel",
+    "marca": "Chanel",
+    "precio": 480000,
+    "descripcion": "Elegante fragancia con toques cítricos, incienso y madera de cedro.",
+    "stock": 10,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://www.chanel.com/images/t_raw/w_640,c_srgb,f_auto,q_auto/perfume/p/107360/107360_bleu-de-chanel-eau-de-parfum-vaporizador_107360_8849401763870.jpg"
+  },
+  {
+    "nombre": "Sauvage",
+    "marca": "Dior",
+    "precio": 500000,
+    "descripcion": "Perfume vibrante con bergamota, pimienta y ambroxan, ideal para uso diario.",
+    "stock": 20,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://www.dior.com/couture/var/dior/storage/images/2202688/horizontale_1500_2000/sauvage-eau-de-parfum.jpg"
+  },
+  {
+    "nombre": "La Vie Est Belle",
+    "marca": "Lancôme",
+    "precio": 460000,
+    "descripcion": "Fragancia femenina floral con notas de iris, jazmín y vainilla.",
+    "stock": 18,
+    "tamaño": "75ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://www.lancome.es/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lancome-es-master-catalog/default/dw83a2c53f/products/3605532612712_EAN_LaVieEstBelle/3605532612712_EAN_LaVieEstBelle_9.0.jpg"
+  },
+  {
+    "nombre": "Good Girl",
+    "marca": "Carolina Herrera",
+    "precio": 480000,
+    "descripcion": "Perfume seductor con notas de cacao, almendra y jazmín sambac.",
+    "stock": 14,
+    "tamaño": "80ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61tHkKj6i7L.jpg"
+  },
+  {
+    "nombre": "Black Opium",
+    "marca": "Yves Saint Laurent",
+    "precio": 490000,
+    "descripcion": "Aroma oriental con café, vainilla y flores blancas, intenso y moderno.",
+    "stock": 16,
+    "tamaño": "90ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://www.yslbeauty.es/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-ysl-es-master-catalog/default/dw1857973d/products/3614272895641/ysl_3614272895641_main_100.jpg"
+  },
+  {
+    "nombre": "Light Blue",
+    "marca": "Dolce & Gabbana",
+    "precio": 430000,
+    "descripcion": "Fragancia cítrica y floral, ideal para el verano.",
+    "stock": 22,
+    "tamaño": "100ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0268/6835/1614/products/light-blue-dolce-gabbana-edt-100ml.jpg"
+  },
+  {
+    "nombre": "CK One",
+    "marca": "Calvin Klein",
+    "precio": 380000,
+    "descripcion": "Fragancia unisex fresca con notas de té verde, piña y jazmín.",
+    "stock": 25,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0074/0936/7635/products/Calvin_Klein_CK_One_edt.jpg"
+  },
+  {
+    "nombre": "Tom Ford Black Orchid",
+    "marca": "Tom Ford",
+    "precio": 520000,
+    "descripcion": "Aroma unisex con trufa negra, orquídea y pachulí, elegante y misterioso.",
+    "stock": 9,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://www.tomford.com/dw/image/v2/AAQT_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw5d2b3992/products/T224010000_1_1000x1000.jpg"
+  },
+  {
+    "nombre": "Versace Eros",
+    "marca": "Versace",
+    "precio": 460000,
+    "descripcion": "Perfume masculino con notas de menta, vainilla y madera de cedro.",
+    "stock": 17,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0268/6835/1614/products/versace-eros-edt-100ml-hombre.jpg"
+  },
+  {
+    "nombre": "Idôle",
+    "marca": "Lancôme",
+    "precio": 470000,
+    "descripcion": "Fragancia femenina con rosas y almizcle blanco, moderna y limpia.",
+    "stock": 13,
+    "tamaño": "75ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://www.lancome.es/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lancome-es-master-catalog/default/dw115167f2/products/3614272895641_EAN_Idole/3614272895641_EAN_Idole_10.0.jpg"
+  },
+  {
+    "nombre": "Acqua di Gio",
+    "marca": "Giorgio Armani",
+    "precio": 440000,
+    "descripcion": "Perfume fresco y acuático con notas de jazmín, romero y pachulí.",
+    "stock": 19,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0270/2822/0762/products/Giorgio-Armani-Acqua-Di-Gio-EDT-100ml-Disfragancias.jpg"
+  },
+  {
+    "nombre": "212 VIP",
+    "marca": "Carolina Herrera",
+    "precio": 450000,
+    "descripcion": "Aroma dulce con ron, maracuyá y vainilla, ideal para fiestas.",
+    "stock": 15,
+    "tamaño": "80ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71Y+71Q2VML.jpg"
+  },
+  {
+    "nombre": "Terre d’Hermès",
+    "marca": "Hermès",
+    "precio": 510000,
+    "descripcion": "Perfume amaderado con notas de naranja, vetiver y pimienta.",
+    "stock": 11,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://www.hermes.com/es/es/product/terre-d-hermes-eau-de-parfum-V101358V0.jpg"
+  },
+  {
+    "nombre": "Le Male",
+    "marca": "Jean Paul Gaultier",
+    "precio": 460000,
+    "descripcion": "Fragancia con lavanda, vainilla y menta, clásica y poderosa.",
+    "stock": 14,
+    "tamaño": "125ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://www.jeanpaulgaultier.com/cdn/shop/files/JPG-LE_MALE-EDT-125ml-V1.jpg"
+  },
+  {
+    "nombre": "Daisy",
+    "marca": "Marc Jacobs",
+    "precio": 400000,
+    "descripcion": "Fragancia femenina floral con notas de fresa, violeta y jazmín.",
+    "stock": 21,
+    "tamaño": "100ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://www.marcjacobsbeauty.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-marcjacobs-us-master-catalog/default/dw1b4a0c8d/products/MJB3028_Marc_Jacobs_Daisy_EDT_100ml_3300.jpg"
+  },
+  {
+    "nombre": "Alien",
+    "marca": "Thierry Mugler",
+    "precio": 480000,
+    "descripcion": "Aroma intenso con jazmín sambac, ámbar y madera de cachemira.",
+    "stock": 10,
+    "tamaño": "90ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0572/3858/3951/products/Alien-Mugler-EDP-90ml.jpg"
+  },
+  {
+    "nombre": "Nautica Voyage",
+    "marca": "Nautica",
+    "precio": 280000,
+    "descripcion": "Perfume fresco y marino con notas de manzana verde y musgo.",
+    "stock": 30,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/610tQY+f9UL.jpg"
+  },
+  {
+    "nombre": "L’Interdit",
+    "marca": "Givenchy",
+    "precio": 470000,
+    "descripcion": "Perfume femenino con flores blancas, vainilla y pachulí.",
+    "stock": 12,
+    "tamaño": "80ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://www.givenchy.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-givenchy-es-master-catalog/default/dw8537a346/products/givenchy_3274872382098_linterdit_edt_9.0.jpg"
+  },
+  {
+    "nombre": "Yara Candy",
+    "marca": "Lattafa",
+    "precio": 300000,
+    "descripcion": "Fragancia femenina gourmand con frutas tropicales, vainilla y almizcle – tendencia 2025 en el Medio Oriente.",
+    "stock": 20,
+    "tamaño": "100ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61+9E0j1iLL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Abaq Al Turath",
+    "marca": "Shaikh Saeed",
+    "precio": 350000,
+    "descripcion": "Aromática unisex con cuero, cítricos y oud – parte de la colección 2025 de perfumes árabes para uso diario.",
+    "stock": 15,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://cdn.shopify.com/s/files/1/0612/0352/7432/products/Legacy70AbaqAlTurathShaikhSaeed.jpg"
+  },
+  {
+    "nombre": "Khamrah Dukhan",
+    "marca": "Lattafa",
+    "precio": 320000,
+    "descripcion": "Fragancia unisex ahumada-dulce con canela, tabaco y oud – uno de los lanzamientos recientes más comentados.",
+    "stock": 12,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61N+V8d-7SL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Blackroot Rouge 500",
+    "marca": "Khalis",
+    "precio": 330000,
+    "descripcion": "Perfume de lujo árabe con notas de rosa, azafrán, oud y vainilla – perfil opulento para ocasiones especiales.",
+    "stock": 8,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71wLp2Wd9LL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Gharam | غرام",
+    "marca": "Ahwak",
+    "precio": 280000,
+    "descripcion": "Colección “Eternal Love” – fragancia femenina oriental-floral intensa, ideal para la noche. ",
+    "stock": 18,
+    "tamaño": "90ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61wX-611R8L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Ishq | عشق",
+    "marca": "Ahwak",
+    "precio": 290000,
+    "descripcion": "Fragancia femenina embriagadora de la misma colección, mezcla de floral intenso, almizcle y oud, para momentos especiales.",
+    "stock": 15,
+    "tamaño": "90ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61N-4d1Z8ML._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Hayam | هيام",
+    "marca": "Ahwak",
+    "precio": 275000,
+    "descripcion": "Versión más luminosa de la colección “Eternal Love”, floral-cítrica con fondo oriental, pensada para día o uso informal.",
+    "stock": 20,
+    "tamaño": "90ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61N+R1G82L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Antique",
+    "marca": "Lattafa (Niche Emirati)",
+    "precio": 310000,
+    "descripcion": "Perfume unisex ámbar-amaderado parte de la colección de Emiratos Árabes Unidos, estilo nicho árabe.",
+    "stock": 10,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61x0W6f9LHL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Toleen",
+    "marca": "Lattafa (Niche Emirati)",
+    "precio": 300000,
+    "descripcion": "Ambar floral unisex, de la misma línea de colecciones nicho del Golfo – ideal para mezclas o layering.",
+    "stock": 11,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71K2gH9sFSL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Zikra",
+    "marca": "Lattafa",
+    "precio": 290000,
+    "descripcion": "Perfume unisex gourmand-ámbar inspirado en Angel’s Share & Oajan, estilo árabe moderno. ",
+    "stock": 14,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61K8L0j1iLL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Lujain",
+    "marca": "Lattafa",
+    "precio": 305000,
+    "descripcion": "Una opción femenina/unisex fina dentro del portafolio de nicho árabe del Golfo – notas florales y madera de oud.",
+    "stock": 13,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61x0W6f9LHL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Versace Eros Eau de Parfum (Arab Edition)",
+    "marca": "Lattafa",
+    "precio": 260000,
+    "descripcion": "Versión árabe de un clásico occidental, adaptada al gusto de Oriente Medio: dulce-ámbar-oush, ideal para público masculino joven.",
+    "stock": 22,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71e4Z-6n0wL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Nautica Voyage (Arabic release)",
+    "marca": "Nautica",
+    "precio": 240000,
+    "descripcion": "Reedición para el mercado árabe: fragancia marina-amaderada con identidad árabe, opción económica para masculino diario.",
+    "stock": 25,
+    "tamaño": "100ml",
+    "genero": "Masculino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/610tQY+f9UL.jpg"
+  },
+  {
+    "nombre": "Kalemat Amber Noir",
+    "marca": "Arabian Oud",
+    "precio": 320000,
+    "descripcion": "Una reinterpretación de la clásica Kalemat, más intensa con ámbar, oud y vainilla para la noche árabe.",
+    "stock": 17,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/71q9p7Q5hNL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Resala",
+    "marca": "Arabian Oud",
+    "precio": 330000,
+    "descripcion": "Creación premium árabe con vainilla, haba tonka y almizcle – popular en 2025 entre coleccionistas de Medio Oriente.",
+    "stock": 9,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61K8L0j1iLL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Mughal Fort",
+    "marca": "Lattafa",
+    "precio": 310000,
+    "descripcion": "Unisex perfume estilo tabaco-oud inspirado por colecciones nicho árabes de lujo. ",
+    "stock": 10,
+    "tamaño": "100ml",
+    "genero": "Unisex",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61N+V8d-7SL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "L’Interdit Arab Edition",
+    "marca": "Givenchy/Ardh Al Zaafaran",
+    "precio": 295000,
+    "descripcion": "Versión para Medio Oriente de un clásico occidental, adaptada con notas árabes – perfume femenino elegante.",
+    "stock": 12,
+    "tamaño": "80ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61+R1G82L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Idôle Arab Edition",
+    "marca": "Lancôme/Ardh Al Zaafaran",
+    "precio": 300000,
+    "descripcion": "Fragancia femenina moderna adaptada al gusto árabe: flores blancas, almizcle y toques dulces-ámbar.",
+    "stock": 13,
+    "tamaño": "75ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61-4d1Z8ML._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "nombre": "Fakhar",
+    "marca": "Lattafa",
+    "precio": 305000,
+    "descripcion": "Perfume femenino floral-amaderado inspirado por el clásico L’Interdit, con identidad árabe.",
+    "stock": 11,
+    "tamaño": "100ml",
+    "genero": "Femenino",
+    "imagenUrl": "https://m.media-amazon.com/images/I/61xX-611R8L._AC_UF894,1000_QL80_.jpg"
+  }
+]
