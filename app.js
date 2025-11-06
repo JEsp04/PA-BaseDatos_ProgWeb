@@ -7,9 +7,11 @@ import carritoDetalleRoutes from "./routes/carritoDetalleRoutes.js";
 import ordenRoutes from "./routes/ordenRoutes.js";
 import detallesOrdenRoute from "./routes/detallesOrdenRoute.js";
 import pagoRoute from "./routes/pagoRoutes.js";
+import cors from "cors";
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/productos", productRoutes);
