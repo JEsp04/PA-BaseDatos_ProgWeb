@@ -9,6 +9,14 @@ import detallesOrdenRoute from "./routes/detallesOrdenRoute.js";
 import pagoRoute from "./routes/pagoRoutes.js";
 import cors from "cors";
 
+import {MercadoPagoConfig, Preference} from "mercadopago";
+
+const mercadoPago = new MercadoPagoConfig({
+  access_token: process.env.ACCESS_TOKEN,
+});
+
+
+
 const app = express();
 
 app.use(cors());

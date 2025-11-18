@@ -15,6 +15,10 @@ const Pago = sequelize.define("Pago", {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
+  preferenceId: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
   metodoPago: {
     type: DataTypes.STRING,
     allowNull: false,
